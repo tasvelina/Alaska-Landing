@@ -1,0 +1,524 @@
+
+/* АДАПТАЦИЯ НАВИГАЦИИ */
+
+@media (max-width: 1200px){
+    .menu-buttons {
+        margin-bottom: 60px;
+    }
+
+    .menu, .contact{
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+    }
+
+    .mobile-menu-active {
+        display: flex;
+    }
+}
+
+@media (min-width: 1400px){
+    .title-category::before{
+        margin-left: -15%;
+    }
+}
+
+/* КОНЕЦ АДАПТАЦИИ НАВИГАЦИИ */
+
+
+/* АДАПТАЦИЯ ОБЛОЖКИ */
+
+@media (max-width: 1150px){
+    .title-category::before,  .title-category::after{
+        width: 42px;
+        height: 2px;
+    }
+
+    .title-category::after{
+        margin-left: 11%;
+    }
+    .header {
+        height: 520px;
+    }
+}
+
+@media (max-width: 950px){
+    .menu-buttons {
+        margin-bottom: 0px;
+    }
+    .title-category {
+        margin-bottom: 50px;
+    }
+    .title-heading {
+        font-size: 100px;
+        margin-bottom: 60px;
+    }
+    .but {
+        margin-top: 40px;
+    }
+    .header {
+        height:480px;
+    }
+    
+}
+
+@media (max-width: 850px){
+    .title-category::before,  .title-category::after{
+        display: none;
+    }
+}
+
+
+@media (max-width: 700px){
+    .header {
+        height:400px;
+    }
+}
+
+@media (max-width: 560px){
+    .title-heading {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 400px){
+    .title-category {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+    .title-heading {
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+    .but {
+        margin-top: 40px;
+        padding: 10px 20px;
+        width:240px;
+        font-size: 14px;
+    }
+
+    .header {
+        height:380px;
+    }
+}
+
+/* КОНЕЦ АДАПТАЦИИ ОБЛОЖКИ */
+
+
+/* АДАПТАЦИЯ БЛОКА "О НАС" */
+
+@media (max-width: 1250px) {
+    .about {
+        gap: 50px;
+    }
+    .content-text {
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+    .content-text-title {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .about {
+        flex-direction: column;
+    }
+    .content-img {
+        padding-left: 50px;
+        width: 60.5%;
+    }
+}
+
+@media (max-width: 600px) {
+    .content-text {
+        padding-left: 40px;
+    }
+    .content-img {
+        display: flex;
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .about {
+        padding: 90px 30px;
+    }
+    .content-text-title {
+        text-align: center;
+    }
+    .content-text {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .content-img {
+        padding-left: 0px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 535px) {
+    .content-text-title {
+        font-size: 40px;
+    }
+    .advs {
+        flex-direction: column;
+        height: 500px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 400px){
+    .content-text {
+        padding-left: 10px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .content-text-title {
+        font-size: 26px;
+    }
+}
+
+/* КОНЕЦ АДАПТАЦИИ БЛОКА "О НАС" */
+
+
+/* АДАПТАЦИЯ БЛОКА "ПРОГРАММА ТУРА" */
+
+@media (max-width: 1310px) {
+    .program {
+        background-size: 110% auto;
+    }
+}
+
+@media (max-width: 1250px) {
+    .program {
+        background-size: 102% auto;
+        height: 3500px;
+        margin-bottom: 0px;
+    }
+    .article-content {
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+    .pr-article-text::before {
+        width: 140px;
+        height: 140px;
+        font-size: 90px;
+    }
+    .pr-article-text {
+        max-width: 45%;
+    }
+    .article-img img{
+        width: 85%;
+    }
+}
+
+@media (max-width: 1175px) {
+    .program {
+        background-size: 105% auto;
+    }
+}
+
+@media (max-width: 1140px) {
+    .program {
+        background-size: 109% auto;
+    }
+}
+
+@media (max-width: 1100px) {
+    .program {
+        background-size: 115% auto;
+    }
+}
+
+@media (max-width: 1045px) {
+    .program {
+        background-size: 120% auto;
+    }
+}
+
+@media (max-width: 990px) {
+    .program {
+        background-size: 126% auto;
+    }
+}
+
+@media (max-width: 915px) {
+    .program {
+        height: 3180px;
+    }
+    .article-content {
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+    .article-title {
+        max-width: 520px;
+        font-size: 28px;
+    }
+    .pr-article-text {
+        padding-right: 30px;
+    }
+    .article-content:nth-child(even) {
+        flex-direction: row;
+    }
+    .article-img img{
+        width: 65%;
+    }
+}
+
+@media (max-width: 845px) {
+    .program {
+        background-size: 134% auto;
+        height: 3180px;
+    }
+}
+
+@media (max-width: 800px) {
+    .program {
+        background-size: 268% auto;
+        height: 5720px;
+        margin-bottom: 150px;
+    }
+    .article-content {
+        display: block;
+    }
+    .article-title {
+        max-width: 570px;
+        font-size: 28px;
+    }
+    .pr-article-text {
+        max-width: 90%;
+        padding-bottom: 30px;
+    }
+    .article-content:nth-child(even) {
+        flex-direction: row;
+    }
+    .article-img img{
+        width: 90%;
+    }
+}
+
+@media (max-width: 775px) {
+    .program {
+        background-size: 310% auto;
+        height: 5560px;
+    }
+}
+
+@media (max-width: 700px) {
+    .program {
+        background-size: 300% auto;
+        height: 5560px;
+    }
+    .pr-title {
+        font-size: 46px;
+        line-height: 48px;
+    }
+}
+
+@media (max-width: 650px) {
+    .program {
+        background-size: 315% auto;
+        height: 5500px;
+    }
+}
+
+@media (max-width: 620px) {
+    .program {
+        background-size: 319% auto;
+        height: 5300px;
+    }
+}
+
+@media (max-width: 575px) {
+    .program {
+        background-size: 336% auto;
+    }
+    .pr-title {
+        font-size: 38px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 555px) {
+    .program {
+        background-size: 380% auto;
+        height: 5200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .program {
+        background-size: 480% auto;
+        height: 5000px;
+    }
+}
+
+@media (max-width: 370px) {
+    .program {
+        margin-top: 60px;
+        background-image: none;
+        height: 4600px;
+        background-color: #fff;
+    }
+    .pr-title {
+        padding-top: 100px;
+    }
+}
+
+/* КОНЕЦ АДАПТАЦИИ БЛОКА "ПРОГРАММА ТУРА" */
+
+
+/* АДАПТАЦИЯ БЛОКА "ОТЗЫВЫ" */
+
+@media (max-width: 1150px) {
+    .reviews-container {
+        flex-direction: column;
+    }
+    .review {
+        margin-bottom: 150px;
+    }
+}
+
+@media (max-width: 700px) {
+    .fb-title {
+        font-size: 46px;
+        line-height: 48px;
+    }
+}
+
+/* КОНЕЦ АДАПТАЦИИ БЛОКА "ОТЗЫВЫ" */
+
+
+/* АДАПТАЦИЯ ГАЛЕРЕИ */
+
+@media only screen and (max-width: 643px){
+    .gallery .box{
+        flex-direction: column;
+    }
+    .gallery .box .photos{
+        width: 100%;
+    }
+}
+
+/* КОНЕЦ АДАПТАЦИИ ГАЛЕРЕИ */
+
+
+/* АДАПТАЦИЯ БЛОКА С ФОРМОЙ ОТПРАВКИ ЗАЯВКИ */
+
+@media (max-width: 1150px) {
+    .login-box {
+        margin-top: 550px;
+      }
+}
+
+@media (max-width: 934px) {
+    .login-box {
+        margin-top: 500px;
+      }
+}
+
+@media (max-width: 850px) {
+    .login-box {
+        margin-top: 430px;
+      }
+}
+
+@media (max-width: 740px) {
+    .login-box {
+        margin-top: 390px;
+      }
+}
+
+@media (max-width: 700px) {
+    .form-container{
+        height: 700px;
+        background-size: 110% auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .form-container{
+        height: 740px;
+        background-size: 130% auto;
+    }
+    .login-box h2{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 525px) {
+    .form-container{
+        height: 720px;
+        background-size: 150% auto;
+    }
+    .login-box{
+        width: 84%;
+    }
+    .login-box h2{
+        font-size: 22px;
+    }
+    .login-box form a {
+        margin-left: 8%;
+      }
+}
+
+@media (max-width: 440px) {
+    .form-container{
+        background-size: 170% auto;
+    }
+    .login-box form a {
+        font-size: 13px;
+        margin-left: 0%;
+      }
+}
+
+@media (max-width: 350px) {
+    .login-box h2{
+        left: 0%;
+    }
+    .login-box h2{
+        font-size: 20px;
+    }
+    .form-container{
+        background-size: 190% auto;
+    }
+    .login-box form a {
+        font-size: 12px;
+      }
+}
+
+/* КОНЕЦ АДАПТАЦИЯ БЛОКА С ФОРМОЙ ОТПРАВКИ ЗАЯВКИ */
+
+
+/* АДАПТАЦИЯ БЛОКА С КОНТАТКАМИ */
+
+@media (max-width: 700px){
+    .footer-container{
+        bottom: unset;
+    }
+    .col {
+        flex-basis: 100%;
+    }
+    
+    .col:nth-child(2), col:nth-child(3){
+        flex-basis: 100%;
+    }
+}
+
+/* КОНЕЦ АДАПТАЦИИ БЛОКА С КОНТАТКАМИ */
+
+
+/* АДАПТАЦИЯ КНОПКИ ПЕРЕМЕЩЕНИЯ К ВЕРХУ СТРАНИЦЫ */
+
+@media (max-width: 350px) {
+    .arrowUP {
+        right: 10%;
+        width: 50px;
+        height: 50px;
+    }
+}
